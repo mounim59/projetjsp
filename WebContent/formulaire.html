@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulaire</title>
+<link rel="stylesheet" href="design/style.css" />
+</head>
+<body>
+
+	<div class="logo">
+		<img alt="logo.jpg" src="images/logo.jpg">
+	</div>
+	<div class="header">
+		<h1>Choix d'une formation</h1>
+	</div>
+
+	<div class="formation">
+		<h2>Formation choisie:</h2>
+	</div>
+	<div class="rFormation">
+		<input type="radio" id="javaB" name="formationB" value="java" checked>
+		<label for="java">Java</label>
+	</div>
+
+	<div>
+		<input type="radio" id="htmlB" name="formationB" value="html">
+		<label for="html">HTML</label>
+	</div>
+
+	<div>
+		<input type="radio" id="php" name="formationB" value="php"> <label
+			for="php">PHP</label>
+	</div>
+
+	<div class="skills">
+		<h2>Skills:</h2>
+	</div>
+
+	<div>
+		<input type="checkbox" id="code" name="code" checked> <label
+			for="code">Code</label>
+	</div>
+
+	<div>
+		<input type="checkbox" id="gestion" name="gestion"> <label
+			for="gestion">Gestion</label>
+	</div>
+	<div>
+		<input type="checkbox" id="communication" name="communication">
+		<label for="communication">Communication</label>
+	</div>
+
+	<div class="informations">
+		<h2>Information:</h2>
+	</div>
+
+	<div>
+		<span> Nom :</span> <span class="nom"><input type="text"
+			id="name" name="name" placeholder="renseigner votre nom"></span>
+	</div>
+	<div>
+		<span> Prenom :</span> <span class="prenom"><input type="text"
+			id="prenom" name="prenom" placeholder="renseigner votre prenom"></span>
+	</div>
+	<div>
+		<span> Mot de Passe :</span> <span><input type="password"
+			id="pwd" name="pwd" placeholder="renseigner votre pwd"></span>
+	</div>
+
+	<input class="envoyer" type="button" value="Envoyer">
+</body>
+</html>
